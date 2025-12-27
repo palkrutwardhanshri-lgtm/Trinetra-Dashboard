@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  # Inject environment variables into window.ENV
+  VITE_API_URL = ""
